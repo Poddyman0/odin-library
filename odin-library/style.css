@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.book-card {
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    margin: 5mm;
+    border-radius: 3mm;
+    padding: 5mm;
+    display: flex;
+    justify-content: left;
+
+    
+}
+
+.btn {
+    margin: 5mm;
+    width: 200px
+
+}
+
+.library-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 25vw;
+    padding-left: 25vw;
+
+}
+
+.new-book-form-style {
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    margin: 5mm;
+    border-radius: 3mm;
+    padding: 5mm;
+}
